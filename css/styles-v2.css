@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 1.1rem;
+    background: #9279ca;
+    color:#fff;
+}
+
+strong {
+    font-weight: 600;
+}
+
+section {
+    padding: 0.8rem;
+    max-width: 740px;
+    min-width: 350px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header {
+    padding: 1.2rem;
+    margin: 1rem 0;
+    position: relative;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    box-sizing: border-box;
+}
+header h2 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.97);
+    color: #3f3b38;
+    margin: 0;
+    padding: 0px 10px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header h2:first-of-type {
+    left: 0px;
+    top: 0.5rem;
+}
+
+header h2:last-of-type {
+    right: 10%;
+    bottom: 1.7rem;
+}
+
+main {
+    box-sizing: border-box;
+    padding: 0.4rem 0.7rem;
+    background-color: rgba(255, 255, 255, 0.299);
+}
+
+main p:first-child { margin-top: 0 !important; }
+main p:last-child { margin-bottom: 0 !important; }
+
+@media (min-width: 480px) {
+    body {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+
+    header h2 {
+        padding: 3px 12px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        min-width: 110px;
+    }
+
+    header h2:first-of-type {
+        left: 0px;
+        top: 2.3vw;
+    }
+    
+    header h2:last-of-type {
+        right: 8%;
+    }
+
+    main {
+        padding: 0.6rem 0.9rem;
+    }
+}
+
+@media (min-width: 576px) {
+    body {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    header h2 {
+        padding: 3px 16px;
+        font-size: 1rem;
+        font-weight: 500;
+        min-width: 130px;
+    }
+
+    header h2:first-of-type {
+        left: 0px;
+        top: 1.9vw;
+    }
+}
+
+@media (min-width: 680px) {
+    body {
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+    }
+
+    header h2 {
+        padding: 10px 20px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        min-width: 160px;
+    }
+
+    header h2:first-of-type {
+        left: 0px;
+        top: 0px;
+    }
+    
+    header h2:last-of-type {
+        right: 9%;
+        bottom: 2rem;
+    }
+}
+
+
