@@ -10,7 +10,6 @@ body {
 }
 
 strong {
-    font-size: 2.95vw;
     font-weight: 900;
 }
 
@@ -71,20 +70,12 @@ main p:last-child { margin-bottom: 0 !important; }
         font-size: 0.9rem;
         line-height: 1.3rem;
     }
-    
-    strong {
-        font-size: 0.9rem;
-    }
 }
 
 @media (min-width: 576px) {
     body {
         font-size: 1rem;
         line-height: 1.5rem;
-    }
-
-    strong {
-        font-size: 1rem;
     }
 
     header h2 {
@@ -98,10 +89,6 @@ main p:last-child { margin-bottom: 0 !important; }
     body {
         font-size: 1.1rem;
         line-height: 1.7rem;
-    }
-
-    strong {
-        font-size: 1.1rem;
     }
 
     header img {
