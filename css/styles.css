@@ -44,7 +44,7 @@ header h2 {
     color: #3f3b38;
     margin: 0;
     padding: 5px 10px;
-    font-size: 3.4vw;
+    font-size: 3.6vw;
     font-weight: 400;
     box-sizing: border-box;
     text-align: center;
@@ -85,7 +85,7 @@ main p:last-child { margin-bottom: 0 !important; }
 
     header h2 {
         padding: 5px 16px;
-        font-size: 1rem;
+        font-size: 1.1rem;
         min-width: 130px;
     }
 }
